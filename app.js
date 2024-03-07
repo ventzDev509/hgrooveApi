@@ -26,8 +26,8 @@ require('./song/root')(app)
 //route for Artist (creat,read,update,delete)
 require("./artist/root")(app)
 
-require('./mocash/init')(app)
-require('./mocash/er')(app)
+// require('./mocash/init')(app)
+// require('./mocash/er')(app)
 
 // Catch-all middleware for handling 404 errors
 
