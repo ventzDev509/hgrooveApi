@@ -40,6 +40,9 @@ module.exports = (sequelize, DataType) => {
         status: {
             type: DataType.INTEGER,
             defaultValue: 0
+        },
+        solde:{
+            type :DataType.DOUBLE,
         }
     },
         {

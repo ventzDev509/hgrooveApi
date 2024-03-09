@@ -47,7 +47,7 @@ module.exports = (sequelize, DataTypes) => {
             allowNull: false
         },
         solde: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.DOUBLE,
             defaultValue: 0
         }
     }, {
