@@ -8,9 +8,9 @@ module.exports = (app) => {
     app.get("/api/hgroove/v1/song-sold", isLogin, async (req, res) => {
         const userLogin = req.userEmail
         // Créer un agent HTTPS personnalisé qui ignore la vérification du certificat
-        const httpsAgent = new https.Agent({
-            rejectUnauthorized: false
-        });
+        // const httpsAgent = new https.Agent({
+        //     rejectUnauthorized: false
+        // });
         // const addImageMetadataToAudio = async (audioUrl, imageUrl, audioFilePath) => {
         //     try {
         //         // Télécharger l'image depuis l'URL avec l'agent HTTPS personnalisé
