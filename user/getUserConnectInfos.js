@@ -18,7 +18,8 @@ module.exports = (app) => {
                             adress: user[0].adress,
                             about: user[0].about,
                             profile: user[0].profile,
-                            status: user[0].status
+                            status: user[0].status,
+                            solde:user[0].solde
                         },
                     ];
                     res.json(data)
